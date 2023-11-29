@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-                                                           /* CSS All Overflow Process Apply */
+                                                           /* CSS All Overflow,Scroll,Hidden,Auto Process Apply */
 .mega_box1{
     width: 500px;
     height: 500px;
@@ -12,9 +12,19 @@
     /* overflow: visible; */
     /* overflow: auto; */
     overflow: scroll;
+    overflow-x: hidden;
 }
 .mega_box2{
     width: 500px;
     height: 500px;
     border: 5px solid green ;
+}
+
+.mini-box{
+    width: 100px;
+}
+
+.short_text{
+    /* white-space: nowrap; */
+    white-space: wrap;
 }
